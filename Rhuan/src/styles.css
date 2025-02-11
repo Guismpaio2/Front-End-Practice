@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'GT-America-Standard-Light-Trial';
+    src: url('assets/fonts/GT-America-Standard-Light-Trial.otf') format('truetype');
+    font-weight: 400 900; 
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid rgb(233, 160, 160); */
+    font-family: 'GT-America-Standard-Light-Trial';
+    font-size: 17px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*X*/
+    justify-content: flex-start; /*Y*/
+    height: 100vh;
+}
+
+.navbar-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.navbar-contents {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.text1 {
+    margin: 4px 0px 0px 12.8px;
+}
+
+.text2 {
+    margin: 4px 0px 0px 12.8px;
+    padding: 2px 0px 0px 12.8px;
+    border-left: 4px solid white;
+}
